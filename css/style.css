@@ -3,6 +3,7 @@
     padding: 0;
     box-sizing: border-box;
 }
+/* stile tag */
 ul{
     list-style: none;
 }
@@ -10,18 +11,11 @@ a{
     text-decoration: none;
     font-family: 'Open Sans', sans-serif;
 }
-.bottone{
-    background-color: rgb(3, 62, 241);
-    color: white;
-    border: none;
-    font-family: 'Open Sans', sans-serif;
-    font-size: 12px;
-    padding: 5px 14px;
-}
+
 h1{
     font-family: 'Open Sans', sans-serif;
     color: black;
-    font-size: 35px;
+    font-size: 50px;
     font-weight: bold;
 }
 h2{
@@ -29,7 +23,6 @@ h2{
     color: black;
     font-size: 20px;
     font-weight: bold;
-    margin: 20px 0px 5px 0px;
 }
 h3{
     font-family: 'Open Sans', sans-serif;
@@ -51,6 +44,7 @@ p{
     border: none;
     padding: 5px 14px;
     background-color: rgb(116, 203, 243);
+    font-size: 30px;
     
     
 }
@@ -60,10 +54,16 @@ hr{
 li{
     margin-bottom: 10px;
 }
+.fa-check{
+    color: rgb(0, 145, 255);
+}
+img{
+    max-width: 100%;
+}
 
 /* header */
 .menù{
-    width: 100%;
+    max-width: 100%;
     height: 80px;
     display: flex;
     justify-content: space-between;
@@ -71,6 +71,14 @@ li{
     /* debug
     background-color: white;
     border: solid black 1px; */
+}
+.bottone{
+    background-color: rgb(3, 62, 241);
+    color: white;
+    border: none;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 12px;
+    padding: 5px 14px;
 }
 .menùsx{
     width: calc(100%/2);
@@ -94,34 +102,36 @@ li{
     color: gray;
 }
 .boxazzurro{
-    width: 100%;
+    max-width: 100%;
     height: 500px;
     background-color: rgb(116, 203, 243);
     padding: 50px;
     position: relative;
 }
 .titolone{
-    word-wrap: wrap;
-    width: 100%;
-    text-align: left;
-    margin-left: 100px;
-    margin-top: 60px;
+    max-width: 100%;
+    text-align:center;
+    margin-left: 200px;
+    width: 700px;
 
 }
 .boxazzurro2{
-    width: 100%;
+    max-width: 100%;
     margin: 0px 100px 100px 100px;
     display: flex;
     padding: 20px;
 }
 .listazzurro{
     word-wrap: wrap;
-    width: 30%;
+    max-width: 100%;
     text-align: left;
+    width: 200px;
+    margin-left: 100px;
+    margin-top: -30px;
 }
 .list{
-    margin-bottom: 30px;
-    margin-top: 30px;
+    margin-bottom: 20px;
+    margin-top: 20px;
 
 }
 .jumbo{
@@ -131,13 +141,17 @@ li{
     right: 10%;
 }
 #jumbo{
-    width: 100%;
+    max-width: 100%;
 }
 
 /* main */
 .businesscontein{
-    width: 100%;
+    max-width: 100%;
     
+}
+.titolone2{
+    margin-top: 100px;
+    margin-left: 280px;
 }
 .businessbox{
     margin: 50px 280px 10px 280px;
@@ -155,6 +169,9 @@ li{
     text-align: center;
     margin-bottom: 10px;
 
+}
+.categoria{
+    margin: 20px 0px 5px 0px;
 }
 .listcol{
     margin-top: 30px;
@@ -175,10 +192,41 @@ li{
     padding:  10px 20px 20px 20px;
     word-wrap: wrap;
 }
+.boxteam{
+    margin-top: 20px;
+}
 .titoloteam{
     font-family: 'Open Sans', sans-serif;
     color: black;
     font-size: 20px;
     font-weight: bold;
     margin: 20px 380px 5px 0px;
+}
+.contain{
+    max-width: 100%;
+    display: flex;
+    padding: 30px 280px 0px 280px;
+}
+.fototesto{
+    width: calc(100%/2);
+    word-wrap: wrap;
+    padding: 10px;
+}
+.fototesto1{
+    width: calc(100%/2);
+    word-wrap: wrap;
+    padding:45px;
+}
+.fototesto1 p{
+    margin: 15px 0px 0px 0px;
+}
+.bottonechiaro{
+    border: none;
+    background-color: white;
+    color: gray;
+    border: solid gray 1px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 12px;
+    padding: 5px 14px; 
+    margin: 15px 0px 0px 0px;
 }
