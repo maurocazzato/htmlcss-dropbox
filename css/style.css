@@ -230,3 +230,15 @@ img{
     padding: 5px 14px; 
     margin: 15px 0px 0px 0px;
 }
+.col{
+    width: calc(100%/3);
+    word-wrap: wrap;
+    padding: 15px;
+}
+.coltext{
+    text-align:left;
+}
+
+.coltext h3{
+    margin-bottom: 10px;
+}
