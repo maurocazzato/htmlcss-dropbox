@@ -60,8 +60,15 @@ li{
 img{
     max-width: 100%;
 }
+.contain{
+    max-width: 100%;
+    display: flex;
+    padding: 30px 280px 0px 280px;
+}
 
 /* header */
+
+/* barra di navigazione */
 .menù{
     max-width: 100%;
     height: 80px;
@@ -101,6 +108,8 @@ img{
     font-size: 16px;
     color: gray;
 }
+
+/*  box jumbo */
 .boxazzurro{
     max-width: 100%;
     height: 500px;
@@ -145,6 +154,8 @@ img{
 }
 
 /* main */
+
+/* piani di abbonamneto */
 .businesscontein{
     max-width: 100%;
     
@@ -202,11 +213,9 @@ img{
     font-weight: bold;
     margin: 20px 380px 5px 0px;
 }
-.contain{
-    max-width: 100%;
-    display: flex;
-    padding: 30px 280px 0px 280px;
-}
+
+/* foto pù testo */
+
 .fototesto{
     width: calc(100%/2);
     word-wrap: wrap;
@@ -241,4 +250,86 @@ img{
 
 .coltext h3{
     margin-bottom: 10px;
+}
+
+/* scopridi più */
+#scopridipiù{
+    display: block;
+    margin-top: 30px;
+}
+#scopridipiù h1{
+    font-size: 30px;
+    margin-bottom: 30px;
+}
+
+/* partners */
+
+.containpartner{
+    display: flex;
+    margin-top: 150px;
+
+}
+.partners{
+    width: calc(100%/3);
+    height: 150px;
+}
+
+.loghipartner{
+    display: flex;
+
+}
+.logo{
+   padding: 60px;
+   display: flex;
+   align-items: center;
+}
+.logopartner{
+    max-width: 100%;
+}
+
+/* stili loghi */
+#designit{
+    background-color: rgb(115, 210, 134);
+}
+#asu{
+    background-color: rgb(90, 12, 12);
+}
+#florida{
+    background-color: rgb(11, 150, 224);
+}
+#topps{
+    background-color: rgb(249, 0, 0);
+    width: 75%;
+}
+#bicycle{
+    background-color: rgb(172, 15, 15);
+}
+#hearst{
+    background-color: rgb(116, 203, 243);
+}
+#lonely{
+    background-color:rgb(32, 4, 246);
+    width: 80%;
+  
+}
+#clear{
+    background-color: rgb(244, 244, 81);
+    width: 80%;
+   
+}
+/* descrizione partner */
+.description{
+    padding: 35px;
+    background-color: rgb(239, 234, 234);
+}
+#descriptionlogo{
+    width: 50%;
+    margin-bottom: 30px;
+}
+.description hr{
+    width: 20%;
+    margin-bottom: 30px;
+}
+#nomelead{
+    margin: 40px 0px 0px 0px;
 }
